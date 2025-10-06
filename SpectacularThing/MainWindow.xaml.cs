@@ -8,7 +8,6 @@ using System.Windows.Media;
 
 namespace SpectacularThing;
 
-
 public partial class MainWindow : Window
 {
     private const string AppKeyPath = @"Software\SpectacularThing";
