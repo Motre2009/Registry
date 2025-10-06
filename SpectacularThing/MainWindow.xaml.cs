@@ -8,6 +8,7 @@ using System.Windows.Media;
 
 namespace SpectacularThing;
 
+
 public partial class MainWindow : Window
 {
     private const string AppKeyPath = @"Software\SpectacularThing";
@@ -76,16 +77,19 @@ public partial class MainWindow : Window
     private void ButtonRed_Click(object sender, RoutedEventArgs e)
     {
         textBoxMenuColor.Text = "255 0 0";
+        UpdateColorPreview();
     }
 
     private void ButtonGreen_Click(object sender, RoutedEventArgs e)
     {
         textBoxMenuColor.Text = "0 255 0";
+        UpdateColorPreview();
     }
 
     private void ButtonBlue_Click(object sender, RoutedEventArgs e)
     {
         textBoxMenuColor.Text = "0 0 255";
+        UpdateColorPreview();
     }
 
     private void UpdateDelayLabel()

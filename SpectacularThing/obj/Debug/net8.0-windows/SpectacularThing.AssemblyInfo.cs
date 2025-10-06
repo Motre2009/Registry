@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpectacularThing")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68421aab8eafd7c8ab61b456b4e261a60073dd62")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11c3c8c97ea2c040c58bdb8c41061b240dac6984")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpectacularThing")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpectacularThing")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
